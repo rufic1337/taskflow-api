@@ -13,7 +13,9 @@
 
 A production-shaped Django REST Framework backend for a real-time task/project management tool: workspaces, boards, columns, tasks and comments — with live WebSocket updates pushed to every connected client and asynchronous email notifications processed off the request/response cycle. Built to demonstrate the two skills e-commerce APIs don't: **Django Channels** (WebSockets) and **Celery** (background jobs), the pair of things clients most often ask for beyond plain CRUD.
 
-**Live demo:** _add your deployed URL here after following the [Deployment](#deployment) section_
+**Live demo:** [https://taskflow-api-ukzk.onrender.com/api/docs/](https://taskflow-api-ukzk.onrender.com/api/docs/)
+
+> Runs on Render's free tier without a persistent database — demo data reseeds automatically on cold start, so it always comes back clean after idle periods rather than accumulating stale state.
 
 ## Features
 
