@@ -1,0 +1,4 @@
+# Keep shell scripts LF even when checked out on Windows -- entrypoint.sh runs
+# inside a Linux container and a CRLF shebang breaks the image at start-up.
+*.sh text eol=lf
+entrypoint.sh text eol=lf
